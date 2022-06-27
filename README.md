@@ -13,12 +13,12 @@ variables (or NULL) for the position update values.
 The virtual position is stored in the variable 'xoriginal'. It is
 initialized to be equal to the atom position when the fix is invoked.
 
-## COMPILATION: 
+## Compilation: 
 To use this fix, place fix_spring_move.cpp and fix_spring_move.h 
 in the LAMMPS src directory, and compile as usual. This fix has been tested
 with the 29 SEPT 2021 version of LAMMPS.
 
-## USAGE: 
+## Usage: 
 ```
 fix springm walls   spring/self/move 10                 xyz                v_smov NULL NULL
 ```
