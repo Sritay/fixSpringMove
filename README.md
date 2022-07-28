@@ -7,6 +7,8 @@ position is moved by the amount specified in the fix. The atom position is
 also moved by the amount specifed in the fix, but this move is in addition 
 to the position update due to other fixes. 
 
+![](fix_spring_working.pdf)
+
 The fix accepts a numeric value for the spring constant, and equal style
 variables (or NULL) for the position update values. 
 
