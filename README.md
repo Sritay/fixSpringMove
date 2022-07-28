@@ -9,8 +9,8 @@ to the position update due to other fixes.
 
 <img src="fix_spring_working.svg" width="400" height="200" />
 
-The fix accepts a numeric value for the spring constant, and equal style
-variables (or NULL) for the position update values. 
+The fix accepts a numeric value for the spring constant, and [equal style
+variables](https://docs.lammps.org/variable.html) (or NULL) for the position update values. 
 
 The virtual position is stored in the variable 'xoriginal'. It is
 initialized to be equal to the atom position when the fix is invoked.
