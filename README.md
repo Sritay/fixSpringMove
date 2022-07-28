@@ -3,7 +3,7 @@
 ## Description
 This fix creates a virtual position for every atom it is invoked upon,
 and tethers the atom to the virtual position by a 1-D spring. The virtual
-position is moved by the amount specified in the fix. The atom position is
+position is moved by the amount specified in the fix every timestep. The atom position is
 also moved by the amount specifed in the fix, but this move is in addition 
 to the position update due to other fixes. 
 
